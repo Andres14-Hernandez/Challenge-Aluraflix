@@ -1,0 +1,42 @@
+.banner{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bannerImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(30%);
+    position: absolute;
+    z-index: -1;
+}
+
+.banner h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    background-color: #6BD1FF;
+    border-radius: 10px;
+    padding: 15px;
+    width: max-content;
+}
+
+.banner p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.bannerText{
+    padding: 10%;
+}
+
+.player{
+    width: 660px;
+    height: 330px;
+    padding: 10%;
+    margin-left: auto;
+}

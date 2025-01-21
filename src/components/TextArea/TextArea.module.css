@@ -1,0 +1,36 @@
+*{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.textArea{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.textArea label{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    display: block;
+    margin-bottom: 10px; 
+    margin-top: 20px;
+}
+
+.text{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: solid 2px #b6b6b6;
+    background-color: transparent;
+    border-radius: 10px;
+    outline-color: #6BD1FF;
+    box-sizing: border-box;
+    color: white;
+}
+
+.text::placeholder{
+    color: #b5b5b5;
+}

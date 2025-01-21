@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #010008e5;
+    align-items: center;
+    border-top: solid 5px #2271D1;
+    padding: 20px;
+    
+}
+
+.footer p{
+    text-align: center;
+    margin: 2px;
+    color: #2271D1;
+}
+
+.footer img{
+    width: 9%;
+}

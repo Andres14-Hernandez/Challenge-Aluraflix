@@ -1,0 +1,27 @@
+.formVideo{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.formVideo form{
+    width: 80%;
+    border: solid 5px #6BD1FF;
+    padding: 3%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 65px;
+    color: white;
+    margin: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
