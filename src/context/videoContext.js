@@ -8,7 +8,7 @@ export const VideoProvider = ({ children }) => {
   const [videos, setVideos] = useState([
     {
       id: uuid(),
-      title: "Video Front de prueva a ver si no se sale del contenedor, si se sale me pego un tiro",
+      title: "Video Front",
       image: "https://s1.significados.com/foto/gato-rasgos-fi-sicos-1.jpg?class=article",
       url: "https://www.youtube.com/watch?v=3XviR7esUvo",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
