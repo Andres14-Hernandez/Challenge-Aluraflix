@@ -8,7 +8,7 @@ function Videos(props){
     const color = props.data.primaryColor;
     const title = props.data.title;
 
-    const { videos } = useContext(VideoContext);
+    const { videos, deleteVideo } = useContext(VideoContext);
     const filteredVideos = videos.filter(video => video.category === title);
 
     return <>
@@ -17,7 +17,7 @@ function Videos(props){
                 <h3 style={{backgroundColor: color}}> {title} </h3>
                 <div className={style.videos}>
                     {filteredVideos.map((video, index) =>(
-                        <Card key={index} data={video} color={color}/>
+                        <Card key={index} data={video} color={color} deleteVideo={() => deleteVideo(video.id)}/>
                     ))}
                 </div>
             </section>
