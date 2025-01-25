@@ -7,7 +7,7 @@ function Header(){
             <img src="img/Logo.png" alt="Logo" className={styles.logo}/>
             <ul className={styles.list}>
                 <li> <Link to="/" className={styles.link}>Home</Link> </li>
-                <li> <Link to="/new-video" className={styles.link}>Nuevo video</Link> </li>
+                <li> <Link to="/new-video" className={styles.link}>New Video</Link> </li>
 
             </ul>
 

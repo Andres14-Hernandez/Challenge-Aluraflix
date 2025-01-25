@@ -18,7 +18,6 @@ function FormVideo(props){
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Manejar envio: ");
         let sendData ={
             title,
             image,
@@ -27,7 +26,6 @@ function FormVideo(props){
             category
         }
         addVideo(sendData);
-        props.recordVideo(sendData); /* ELIMINAR */
     }
 
     const handleClear = () => {
@@ -41,33 +39,33 @@ function FormVideo(props){
     return(
         <section className={styles.formVideo}>
             <form onSubmit={handleSubmit}>
-                <h2 className={styles.title}>NUEVO VIDEO</h2>
+                <h2 className={styles.title}>NEW VIDEO</h2>
 
                 <TextForm 
-                    Label="Titulo" 
-                    InputText="Ingresa el titulo del video" 
+                    Label="Title" 
+                    InputText="Name of the video" 
                     required={true}
                     value={title}
                     setValue={setTitle}
                 />
                 <TextForm 
-                    Label="Imagen" 
-                    InputText="Ingresa la URL de la imagen" 
+                    Label="Image" 
+                    InputText="Image URL" 
                     required={true}
                     value={image}
                     setValue={setImage}
                 />
                 <TextForm 
-                    Label="URL" 
-                    InputText="Ingresa la URL del video" 
+                    Label="URL video" 
+                    InputText="Video URL" 
                     required={true}
                     value={url}
                     setValue={setUrl}
                 />
 
                 <TextArea
-                    Label="Descripción"
-                    InputText="Ingresa la descripción del video"
+                    Label="Description"
+                    InputText="Description of the video"
                     required={true}
                     value={description}
                     setValue={setDescription}
@@ -81,10 +79,10 @@ function FormVideo(props){
 
                 <div className={styles.buttons}>
                     <Button>
-                        Agregar
+                        Add Video
                     </Button>
                     <Button onClick={handleClear}>
-                        Limpiar                        
+                        Clean Form                       
                     </Button>
                 </div>
             </form>

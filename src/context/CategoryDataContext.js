@@ -21,7 +21,7 @@ const dataVideos = [
     
     {
         id: uuid(), 
-        title: "Innovación y Gestión", 
+        title: "UX and UI Desing", 
         primaryColor: "#FFBA05" 
     },
 ];

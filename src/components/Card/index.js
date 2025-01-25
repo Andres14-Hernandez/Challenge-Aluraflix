@@ -20,7 +20,6 @@ function Card(props){
                     <FaExternalLinkAlt className={styles.button_1} onClick={redirection}/>
                     <MdDeleteForever className={styles.button_2} onClick={()=>deleteVideo(id)}/>
                 </div>
-
             </div>
         </div>
     )

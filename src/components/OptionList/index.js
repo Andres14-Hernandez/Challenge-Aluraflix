@@ -9,9 +9,9 @@ function OptionList(props){
 
     return(
         <div className={styles.optionList}>
-            <label>Categoria</label>
+            <label>Category</label>
             <select className={styles.list} value={props.value} onChange={handleChange} required={true}>
-                <option value="" disabled defaultValue="" hidden>Seleccionar Equipo</option>
+                <option value="" disabled defaultValue="" hidden>Select a Team</option>
                 {props.categories.map((category, index) => {
                     return <option key={index} value={category}>{category}</option>
                 })}

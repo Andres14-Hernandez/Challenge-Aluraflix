@@ -3,6 +3,7 @@
     height: 800px;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .bannerImg{
@@ -24,22 +25,27 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    width: min-content;
 }
 
 .banner p{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
+    word-break: keep-all;
 }
 
 .bannerText{
-    padding: 10%;
+    padding: 10% 5%;
     width: 600px;
 }
 
 .player{
-    width: 660px;
-    height: 330px;
-    padding: 10%;
+    width: 40%;
+    max-height: 55%;
+    padding: 5%;
     margin-left: auto;
+    color: #ff5353 ;
+    font-size: 30px;
+    object-fit: contain;
 }
