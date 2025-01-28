@@ -34,3 +34,13 @@
 .textForm input::placeholder{
     color: #b5b5b5;
 }
+
+
+
+@media screen and (max-width: 600px){
+
+    .textForm{
+        margin: 0;
+    }    
+
+}

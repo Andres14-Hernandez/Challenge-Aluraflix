@@ -1,7 +1,7 @@
 .button{
     background-color: #262626;
     margin-top: 50px;
-    width: 20%;
+    width: 30%;
     color: white;
     font-size: 30px;
     border: solid 3px white;
@@ -13,4 +13,22 @@
 .button:hover{
     background-color: #146e80;
     border: solid 3px #22b4d1;
+}
+
+
+@media screen and (max-width: 900px){
+
+    .button{
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    .button{
+        font-size: 20px;
+        width: 40%;
+    }
+
 }

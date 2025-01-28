@@ -14,5 +14,13 @@
 }
 
 .footer img{
-    width: 10%;
+    width: 250px;
+}
+
+@media screen and (max-width: 500px){
+
+    .footer img{
+        width: 150px;
+    }
+    
 }

@@ -25,3 +25,12 @@
     padding-top: 20px;
 }
 
+
+@media screen and (max-width: 600px){
+
+    .title{
+        font-size: 40px;
+        text-align: center;
+    }
+
+}

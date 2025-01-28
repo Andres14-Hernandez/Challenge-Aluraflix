@@ -22,3 +22,13 @@
     padding: 0 5%;
     gap: 20px;
 }
+
+
+@media screen and (max-width: 900px){
+    
+    .videos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

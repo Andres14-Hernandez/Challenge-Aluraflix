@@ -50,3 +50,19 @@
     transform: scale(1.8);
 }
 
+@media screen and (max-width: 1050px){
+
+    .card{
+        transform: scale(0.9);
+    }
+
+}
+
+
+@media screen and (max-width: 900px){
+
+    .card{
+        width: 100%;
+    }
+
+}
