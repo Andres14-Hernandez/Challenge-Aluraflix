@@ -1,5 +1,5 @@
 import styles from "./Banner.module.css"
-import imgBanner from "./banner.png"
+import imgBanner from "./Banner.jpg"
 import { VideoContext } from "context/videoContext"
 import { useContext } from "react"
 import { useCategoryData } from "context";

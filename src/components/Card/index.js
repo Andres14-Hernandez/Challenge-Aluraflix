@@ -8,7 +8,7 @@ function Card(props){
     const {color, deleteVideo, id} = props
 
     const redirection = ()=>{
-        window.open({url}, '_blank');
+        window.open(url, '_blank');
     }
 
     return (

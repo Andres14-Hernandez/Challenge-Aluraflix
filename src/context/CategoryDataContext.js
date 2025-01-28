@@ -10,7 +10,7 @@ const dataVideos = [
     { 
         id: uuid(),
         title: "Front-end", 
-        primaryColor: "#6BD1FF" 
+        primaryColor: "#1c39e1" 
     },
 
     {

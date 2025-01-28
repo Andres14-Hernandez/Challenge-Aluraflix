@@ -4,6 +4,7 @@ import NewVideo from "pages/NewVideo";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { CategoryDataProvider } from "context";
 import { VideoProvider } from "context/videoContext";
+import NotFound from "pages/notFound";
 
 
 function AppRoutes(){
@@ -26,6 +27,8 @@ function AppRoutes(){
                             </VideoProvider>
                         </CategoryDataProvider>
                     }/>
+
+                    <Route path="*" element={<NotFound />} />
                 </Route>
             </Routes>
         </BrowserRouter>

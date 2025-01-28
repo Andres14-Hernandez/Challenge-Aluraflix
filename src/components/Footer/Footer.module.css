@@ -3,17 +3,16 @@
     flex-direction: column;
     background-color: #010008e5;
     align-items: center;
-    border-top: solid 5px #2271D1;
-    padding: 20px;
-    
+    border-top: solid 5px #22b4d1;
+    padding: 20px;    
 }
 
 .footer p{
     text-align: center;
     margin: 2px;
-    color: #2271D1;
+    color: #22b4d1;
 }
 
 .footer img{
-    width: 9%;
+    width: 10%;
 }
